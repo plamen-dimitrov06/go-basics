@@ -8,5 +8,5 @@ func main() {
 	fmt.Scanln(&packsOfDogFood)
 	fmt.Scanln(&packsOfCatFood)
 
-	fmt.Printf("%f lv.\n", (packsOfDogFood * 2.5) + (packsOfCatFood * 4)) // add rounding
+	fmt.Printf("%f lv.\n", (packsOfDogFood * 2.5) + (packsOfCatFood * 4))
 }

@@ -7,5 +7,5 @@ func main() {
 	fmt.Scanln(&inches)
 
 	var oneInchInCm float32 = 2.54
-	fmt.Println(inches * oneInchInCm) // consider rounding
+	fmt.Println(inches * oneInchInCm)
 }
