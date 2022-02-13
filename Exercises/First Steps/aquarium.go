@@ -6,7 +6,7 @@ func main() {
 	var lenght int
 	var width int
 	var height int
-	var percent int // space filled with sand, pump etc.
+	var percent float32 // space filled with sand, pump etc.
 	fmt.Scanln(&lenght)
 	fmt.Scanln(&width)
 	fmt.Scanln(&height)
