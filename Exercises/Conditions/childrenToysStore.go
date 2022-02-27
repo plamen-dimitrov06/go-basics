@@ -31,7 +31,7 @@ func main() {
 	//
 	orderTotal = orderTotal * 0.9
 
-	if orderTotal > vacationPrice {
+	if orderTotal >= vacationPrice {
 		fmt.Printf("Yes! %.2f lv left.", orderTotal - vacationPrice)
 	} else {
 		fmt.Printf("Not enough money! %.2f lv needed.", vacationPrice - orderTotal)
