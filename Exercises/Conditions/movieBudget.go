@@ -29,6 +29,6 @@ func main() {
 		fmt.Printf("Wingard needs %.2f leva more.", expenses - movieBudget)
 	} else {
 		fmt.Println("Action!")
-		fmt.Printf("Wingard start filming with %.2f leva left.", movieBudget - expenses)
+		fmt.Printf("Wingard starts filming with %.2f leva left.", movieBudget - expenses)
 	}
 }
