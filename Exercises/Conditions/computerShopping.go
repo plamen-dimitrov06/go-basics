@@ -23,7 +23,7 @@ func main() {
 		orderTotal = orderTotal * 0.85
 	}
 
-	if orderTotal < budget {
+	if orderTotal <= budget {
 		fmt.Printf("You have %.2f leva left!", budget - orderTotal)
 	} else {
 		fmt.Printf("Not enough money! You need %.2f leva more!", orderTotal - budget)
