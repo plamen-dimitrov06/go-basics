@@ -20,7 +20,7 @@ func main() {
 		
 		if book == "NoMoreBooks" {
 			fmt.Println("The book you search is not here!")
-			fmt.Printf("You check %d books.", booksChecked)
+			fmt.Printf("You checked %d books.", booksChecked)
 			break
 		}
 
